@@ -11,7 +11,7 @@ function genLettre(lettre){
         }
         split_1 = lettrePlaque.split("");
         lettrePlaque="";
-        console.log(split_1);
+       // console.log(split_1);
         return split_1;
 }
 
@@ -23,13 +23,26 @@ function genNbr(nbr){
             plaque += nbr.charAt(Math.floor(Math.random()*nbr.length));   
         }
     plaque += "-";
-    plaque += split_1[2] + split_1[3];
-    split_1= new Array;  
+    plaque += split_1[2] + split_1[3] + " | " ;
+    split_1= new Array;
 }
+
+
 
 let nbplaque = prompt("Entré un nombre de plaque");
     for(let i=0;i< nbplaque;i++){
-        genNbr(nbr); 
+        genNbr(nbr);
     }
 console.log(plaque);
 
+function addElement(){
+       
+        let newContent = document.createTextNode(plaque);
+        let parentDiv = document.getElementById("plaques");
+        let childDiv = document.createElement("div");
+        
+       //document.body.insertBefore(childDiv,parentDiv);
+        childDiv.appendChild(newContent);
+        parentDiv.appendChild(childDiv);
+        console.log(childDiv);
+}document.body.onload = addElement;
