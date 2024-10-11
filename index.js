@@ -27,7 +27,7 @@ function genNbr(nbr){
     Split_1= new Array;  
 }
 
-let nbplaque = prompt("nombre");
+let nbplaque = prompt("Entré un nombre de plaque");
     for(let i=0;i< nbplaque;i++){
         genNbr(nbr); 
     }
