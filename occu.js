@@ -12,4 +12,4 @@ function occurrences(liste, elements) {
 
     return ranges;
 }
-console.log(occurrences(liste, elements)); 
+console.log(occurrences(liste, elements)); [0,1,2]
