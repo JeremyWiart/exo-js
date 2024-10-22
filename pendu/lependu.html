@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.1/dist/tailwind.min.css" />
+    <title>Pendu</title>
+</head>
+<body class="mt-10 text-center">
+    <h1>Pendu</h1>
+    
+    <p id="mot" class="text-2xl"></p>
+    <div id="potence" class="mt-5 text-black-600 text-xl"></div>
+    <p id="erreurs" class="text-red-600 font-bold"></p>
+    
+    <input type="text" id="lettre" maxlength="1" placeholder="Entrez une lettre" autofocus>
+    <button id="bouton">Envoyer</button>
+    
+    <p id="resultat" class="mt-5 text-xl text-green-600"></p>
+
+    <script type="module" src="le_pendu.js"></script>
+</body>
+</html>
