@@ -1,0 +1,24 @@
+<?xml version ="1.0" encoding="UTF-8" ?>
+<cv>
+        <nom>wiart</nom>
+        <prenom>jeremy</prenom>
+        <adresse>
+            <rue>4 rue montesquieu</rue>
+            <cp>34490</cp>
+            <ville>Thézan-les-Béziers</ville>
+        </adresse>
+        
+
+    <emplois>
+        <etablissement>df</etablissement>
+        <date>d</date>
+        <intitule>d</intitule>
+    </emplois> 
+    <formation>
+        <diplome>
+            <etablissement>d</etablissement>
+            <date>d</date>
+            <intitule>d</intitule>
+        </diplome>
+    </formation>
+</cv>
